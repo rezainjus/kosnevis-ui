@@ -1,0 +1,79 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #111111;
+    font-family: RobotoMono;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5vw;
+}
+
+.logo {
+    font-size: 23px;
+    color: #0086FF;
+
+}
+
+.fa-search {
+    font-size: 15px;
+}
+
+.text {
+    background-color: #111111;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+#img {
+    border-radius: 50%;
+    max-width:50px;
+    margin: 10px;
+}
+
+.fa-cog {
+    padding: 7px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 17px;
+}
+
+hr {
+    width: 90vw;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    margin: 50px 7vw;
+}
+
+.usr-img {
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+.user {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user .chat {
+    text-decoration: none;
+    color: #0086FF;
+    margin-top: 0;
+}

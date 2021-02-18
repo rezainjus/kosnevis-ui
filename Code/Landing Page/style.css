@@ -37,4 +37,5 @@ body {
     font-size: 20px;
     font-family: RobotoMono;
     cursor: pointer;
+    text-decoration: none;
 }

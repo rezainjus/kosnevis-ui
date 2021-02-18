@@ -1,0 +1,40 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #111111;
+    font-family: RobotoMono;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.title {
+    color: #0086FF;
+    font-size: 45px;
+    margin-bottom: 7px;
+}
+
+.subtitle {
+    margin-top: 0;   
+    font-size: 24px; 
+}
+
+.btn {
+    background: #0086FF;
+    padding: 15px 45px;
+    border-radius: 43px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: RobotoMono;
+    cursor: pointer;
+}

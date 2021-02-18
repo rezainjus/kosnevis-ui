@@ -1,0 +1,86 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #111111;
+    font-family: RobotoMono;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    color: #0086FF;
+    font-size: 40px;
+    margin-bottom: 7px;
+}
+
+.subtitle {
+    margin-top: 0;   
+    font-size: 20px; 
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input {
+    background: #111111;
+    border: 1px solid white;
+    padding: 7px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-family: RobotoMono;
+    margin: 7px;
+    width: 115%;
+    text-transform: uppercase;
+}
+
+.btn {
+    background: #0086FF;
+    padding: 7px 22px;
+    border-radius: 43px;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-family: RobotoMono;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.login {
+    color: #0086FF;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.signuplink {
+    color: #0086FF;
+    text-decoration: none;
+}
+
+.signup {
+    margin-top: 10px;
+}
